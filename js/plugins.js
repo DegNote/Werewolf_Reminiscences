@@ -15,5 +15,5 @@ var $plugins =
 {"name":"Add","status":true,"description":"","parameters":{}},
 {"name":"CustomizeConfigDefault","status":true,"description":"オプションデフォルト値設定プラグイン","parameters":{"AlwaysDash":"false","CommandRemember":"false","TouchUi":"false","BgmVolume":"40","BgsVolume":"20","MeVolume":"20","SeVolume":"40","EraseAlwaysDash":"true","EraseCommandRemember":"true","EraseTouchUi":"true","EraseBgmVolume":"false","EraseBgsVolume":"true","EraseMeVolume":"true","EraseSeVolume":"false"}},
 {"name":"SimpleChoicePos","status":true,"description":"[1.0] Set choice window position / size / rows simply.","parameters":{}},
-{"name":"LoadCommonEvent","status":true,"description":"[TEST] ロード成功時にコモンイベント動かすだけ","parameters":{}}
+{"name":"LoadCE_Instant","status":true,"description":"ロード直後（画面暗転中）にコモンイベントを即時実行する","parameters":{"CommonEventId":"153"}}
 ];
