@@ -15,5 +15,6 @@ var $plugins =
 {"name":"Add","status":true,"description":"","parameters":{}},
 {"name":"CustomizeConfigDefault","status":true,"description":"オプションデフォルト値設定プラグイン","parameters":{"AlwaysDash":"false","CommandRemember":"false","TouchUi":"false","BgmVolume":"60","BgsVolume":"60","MeVolume":"60","SeVolume":"60","EraseAlwaysDash":"true","EraseCommandRemember":"true","EraseTouchUi":"true","EraseBgmVolume":"false","EraseBgsVolume":"true","EraseMeVolume":"true","EraseSeVolume":"false"}},
 {"name":"SimpleChoicePos","status":true,"description":"[1.0] Set choice window position / size / rows simply.","parameters":{}},
-{"name":"LoadCE_Instant","status":true,"description":"ロード直後（画面暗転中）にコモンイベントを即時実行する","parameters":{"CommonEventId":"153"}}
+{"name":"LoadCE_Instant","status":true,"description":"ロード直後（画面暗転中）にコモンイベントを即時実行する","parameters":{"CommonEventId":"153"}},
+{"name":"MNKR_KMS_SaveWithSnapMZ","status":true,"description":"セーブ/ロード画面にスクリーンショットを追加します。","parameters":{"fontSize":"26","mapImages":"","imageScale":"0.5","enableJpeg":"true","imageX":"0","imageY":"0","imageHight":"320","drawTitles":"","drawTitle":"false","titleX":"0","titleY":"4","titleWidth":"180","drawMapNames":"","drawMapName":"false","mapNameX":"0","mapNameY":"4","mapNameWidth":"568","drawPartys":"","drawParty":"false","partyX":"220","partyY":"-8","playtimes":"","playtime":"true","playtimeX":"-280","playtimeY":"0","playtimeWidth":"760","__collapsed":["drawTitles","drawMapNames"]}}
 ];
