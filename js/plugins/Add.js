@@ -16,9 +16,10 @@ Window_TitleCommand.prototype.makeCommandList = function() {
 
     // 2. レイアウト調整
     Window_SavefileList.prototype.maxCols = function () {
-        return 2;
+        return 3;
     };
     
     Window_SavefileList.prototype.numVisibleRows = function () {
         return 2;
     };
+
